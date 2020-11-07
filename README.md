@@ -4,8 +4,9 @@ This is a simple utility for querying data transfer of a mobile router and plott
 
 ## Usage
 
-- Start script `src/get-data.sh`
-- Open `src/index.html` in browser
+1. Change to directory `src`
+1. Start script `./get-data.sh`
+1. Open `src/index.html` in browser
 
 ## Getting the data
 
