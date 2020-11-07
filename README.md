@@ -18,3 +18,5 @@ d.push([new Date('2020-11-07T21:11:09'), 149326465165])
 ## Visualizing the data
 
 The data is visualized on a HTML page by using [Google Charts](https://developers.google.com/chart)
+
+![example chart](https://raw.githubusercontent.com/mtreinik/data-transfer-monitor/main/docs/data_transferred.png)
