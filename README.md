@@ -2,6 +2,11 @@
 
 This is a simple utility for querying data transfer of a mobile router and plotting the transfer rates in a browser.
 
+## Usage
+
+- Start script `src/get-data.sh`
+- Open `src/index.html` in browser
+
 ## Getting the data
 
 The script `get-data.sh` uses the [netgear-m1.sh](https://github.com/mtreinik/netgear-m1) utility to query the amount of data transferred by the mobile router every ten seconds.
