@@ -15,12 +15,12 @@ function drawChart() {
   data.addRows(d)
   const options = {
     title: 'Data transferred',
-    width: 1000,
-    height: 600,
+    height: 700,
     orientation: 'horizontal',
+    chartArea: { 'width': '90%', 'height': '80%' },
     legend: { position: 'none' }
   }
-  const chart = new google.visualization.BarChart(
+  const chart = new google.visualization.LineChart(
     document.getElementById('chart'))
   chart.draw(data, options);
 }
